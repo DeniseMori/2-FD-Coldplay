@@ -68,8 +68,7 @@ header {
 /* Zodra het scherm kleiner wordt dan 800px verdwijnen de dark/light modus knopjes uit beeld */
 @media (max-width:800px) {
     #sunset {
-        margin-left: 110%;
-        transition: 1s;
+        display: none;
     }
 }
 
@@ -82,8 +81,7 @@ header {
 
 @media (max-width:800px) {
     #sunrise {
-        margin-left: 105%;
-        transition: 1s;
+        display: none;
     }
 }
 
